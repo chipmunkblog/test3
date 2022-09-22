@@ -1,4 +1,7 @@
+// import 'modern-css-reset/dist/reset.min.css'
 import '../styles/globals.css'
+import 'highlight.js/styles/panda-syntax-dark.css'
+import 'ress'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
