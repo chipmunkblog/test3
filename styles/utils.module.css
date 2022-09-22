@@ -38,11 +38,11 @@
 }
   
 .list {
-    background-color: rgb(255, 235, 249);
+    background-color: #2a2c2d;
     list-style: none;
     padding: 0;
     margin: 0;
-    border-radius: 0 30px;
+    border-radius: 5px 5px 5px 5px;
 }
   
 .listItem {
