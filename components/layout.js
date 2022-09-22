@@ -29,7 +29,7 @@ export default function Layout({ children, home }) {
 
       <Header/>
 
-      <div className='container flex-grow w-screen px-3 py-1 bg-white md:w-2/4' >
+      <div className='container flex-grow w-screen px-8 py-1 bg-white md:w-2/4 md:px-3' >
         <main>{children}</main>
         {!home && (
           <div className={styles.backToHome}>
