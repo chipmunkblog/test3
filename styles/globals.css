@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
 body {
   padding: 0;
   margin: 0;
@@ -13,6 +12,10 @@ body {
 a {
   color: #fda4af;
   text-decoration: none;
+}
+
+strong {
+  background:linear-gradient(transparent 20%, rgb(242, 155, 233) 40% 80%, transparent 100%);
 }
 
 * {
